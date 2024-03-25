@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Mundo Maravilhoso do Futebol</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="frame_container">
+
+        <div class="frame_fullscreen">
+            
+            <img style="height: 200vw; width: auto;" src="Images/0.png">
+            <div class="clickableArea" id="firstClickableArea" style="left: 75vw; top: 80vw; width: 90vw; height: 90vw; border-radius: 50vw;"></div>
+
+        </div>
+
+    </div>
+
+    <div id="textbox_container_index">
+        <div class="textbox_container_space"></div>
+        <div id="textbox">
+            <h1>No Mundo Maravilhoso do Futebol</h1>
+            <p>Julian Germain • Murilo Godoy • Patricia Azevedo</p>
+            <p>Igor Soares • Jackson Jonas Vitor Nazário • Isabela • Vinícius Carlos Cecilio • Leila Aparecida Mendes • Maíra • Leandro Xavier de Souza • Fábio • Carlos André Cecílio • Djalma • David Borges Júnior • Anderson Borges • Gleison Soares dos Santos • Marcelo Gomes dos Santos • Cristina • Robson Jonas Divino Nazário • Alcidimar Alice do Vale • Elinton Firmino de Almeida • Silvilane • Jeferson Jesus dos Santos • Carolina • Daniel Luís da Silva • Marcos Roberto Soares dos Santos • Edmar Firmino de Almeida • Viviane • Willian dos Santos • Carlos Antônio Andrade • Luciana • Gustavo Marques Nazaro • Ederson dos Santos Oliveira • Janaína Soares dos Santos • Perla • Paulo Murin Barbosa Fernandes • Gleiciele • André Libério de Oliveira • Fabiano Libério de Oliveira • Helder Júnior da Silva • Marcos Vinícius dos Santos • Gabriela • Leandro Euzébio dos Santos • Diego Verner dos Santos • Juliana • José Marcelo Silva • Alexandro Libério de Oliveira • Sheila • Emerson Laurindo dos Santos • Paulo Henrique de Souza • Gleison da Silva Luís • Daiane • José de Paulo Antônio da Silva • Maria Esther da Silva • Priscilla • Beluzene Aparecida Fernandez • Juliana da Silva • Thiago • Roberta Rodolfo de Castro • Gabriel Silva Luís • Davse • Emerson Teixeira • Sibele • Rodrigo Gomes dos Santos • Aldair José Antônio da Silva • Aline Cristina da Costa Martins • Lucas • Valdirene Cardoso Dias • Wesley • Lilian Lourenço • Carla • Jaqueline da Silva • Michelle Rodolfo Matos • Marcos Antônio Barbosa dos Santos • Rafael Lúcio Borges • Andreza • Diego Pereira dos Santos • Ivan Gomes Barbosa • Andrea • Edmar Astolfo de Souza • Jonathan Cristiano Fernandez • Fernando • Michel Luís dos Santos • Raquel • Jerry Adriano dos Santos • Natalia • Feline Onofre Teixeira de Jesus • Esther Pereira dos Santos • Caroline • Henrique Pereira dos Santos • Natalia Dutra • Maiara</p>
+            <p>Developed by Joana S A A Sobral</p>
+            <p><strong>Scroll in the image and click on the football-related item to continue.</strong></p>
+            <p id="textbox_x">x</p>
+        </div>
+        <div class="textbox_container_space"></div>
+    </div>
+
+
+    <p id="current_page">1</p>
+    <a href="end.html"><p id="total_page">/37</p></a>
+    
+</body>
+<script src="text.js"></script>
+<script src="images.js"></script>
+<script>
+
+    let textbox_x = document.getElementById("textbox_x");
+    let firstTextbox = document.getElementById("textbox_container_index");
+
+    textbox_x.addEventListener("click",()=>{
+        firstTextbox.style.display = "none";
+    })
+
+</script>
+</html>
