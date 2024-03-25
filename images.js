@@ -152,28 +152,28 @@ function imageChange(){
 
                 if(current_page_number == 2){
                     makeTextbox(intro_title_pt,intro_pt,intro_title_eng,intro_eng);
-                }
-                if(current_page_number == 3){
+                }else if(current_page_number == 3){
                     makeTextbox(history_title_pt,history_pt,history_title_eng,history_eng);
+                } else if(current_page_number == 37){
+                    makeTextbox("",end_pt,"",end_eng);
+                } else{
+                    if(numberArray[index] == 12){
+                        makeTextbox("",a_pt,"",a_eng);
+                    }
+                    if(numberArray[index] == 14){
+                        makeTextbox("",b_pt,"",b_eng);
+                    }
+                    if(numberArray[index] == 15){
+                        makeTextbox("",c_pt,"",c_eng);
+                    }
+                    if(numberArray[index] == 19){
+                        makeTextbox("",d_pt,"",d_eng);
+                    }
+                    if(numberArray[index] == 30){
+                        makeTextbox("",e_pt,"",e_eng);
+                    }
                 }
-
-
-                // specific page & text
-                if(numberArray[index] == 12){
-                    makeTextbox("",a_pt,"",a_eng);
-                }
-                if(numberArray[index] == 14){
-                    makeTextbox("",b_pt,"",b_eng);
-                }
-                if(numberArray[index] == 15){
-                    makeTextbox("",c_pt,"",c_eng);
-                }
-                if(numberArray[index] == 19){
-                    makeTextbox("",d_pt,"",d_eng);
-                }
-                if(numberArray[index] == 30){
-                    makeTextbox("",e_pt,"",e_eng);
-                }
+                
 
                 numberArray.splice(index,1);
                 clickableAreaTop.splice(index,1);

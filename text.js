@@ -109,6 +109,21 @@ let e_pt = ["Eu sou eu • Agora e antes • Agora e sempre",
                 "Porque quando for grande sou fazer muitas coisas • Acima de tudo, continuarei",
                 "Sendo eu à minha maneira"]
 
+let end_eng = ["I dreamed of a beautiful green field.",
+                "I was with my friends Catito and Gabim and dreamed we were in this field with Romário, Pelé, Ronaldino and Bebeto.",
+                "And they are teaching us.",
+                "You can imagine, we started with ‘hard feet’ and ended up crack players.",
+                "Afterwards, when we got back to Cascalho, and told them how we were taught by Romário, Pelé, Ronaldino and Bebeto, they laughed and mocked. So we called them to play and they were astonished by the goals we scored! We shut their mouths because we always lost and now we always win.",
+                "Someday, we will be called ‘Cascalho’s Kings of the Ball’."]
+let end_pt = ["Sonhei que eu estava em um lindo campo verde.",
+                "Neste campo estava eu, Pelé, Romário, Dedé, Bebeto e Didi.",
+                "Eles estavam me treinando.",
+                "Vocês nem imaginam, eu entrei no campo com o pé duro e sai um craque.",
+                "Então na saída encontrei com os meus colegas Catito e Gabim e contei pra eles que eu tinha acabado de ser treinado pelo Romário, Bebeto, Didi, Dedé e Pelé.",
+                "Eles começaram a rir e a zombar de mim.",
+                "Então, eu chamei eles prá jogar uma pelada e eles ficaram chocados com os golos que eu fiz. Reuni todos e treinei eles também. ‘Indes’ deste dia nós tampamos a boca de todos, porque sempre a gente perdia e agora nós ganhamos todos os jogos.",
+                "Acho que vão até nos chamar nós de ‘Rei da Bola do Cascalho’."]
+
 let textContainer;
 let currentLang = "pt";
 
